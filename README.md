@@ -19,3 +19,11 @@ Clear and load are both commands of MATLAB. Clear removes any and all variables 
 <img width="309" alt="Screenshot 2023-03-21 at 6 12 11 PM" src="https://user-images.githubusercontent.com/110073567/226753410-343ebe9a-107e-4950-bcc2-df2512aa1746.png">
 
 When setting up variable for data in certain columns, we would use the format of variable = dataVariable(:,1); where the (:,1) represents the data in the first column of the .txt file. Referencing data columns as variables makes it easier for the users to call on that specific data set later. 
+
+```Matlab
+time = b(:,1); %set a variable for time by using the data's first column
+windspeed = b(:,2); %set a variable for windspeed by using the data's second column
+tair = b(:,3); %set a variable for air temperature by using the data's third column
+td = b(:,4); %set a variable for dew point by using the data's fourth column
+pressure = b(:,5); %set a variable for air pressure by using the data's fifth column 
+```
