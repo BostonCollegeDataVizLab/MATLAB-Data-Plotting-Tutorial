@@ -11,7 +11,7 @@ Nice! Now we can open up MATLAB and create a new script which is a new file wher
 
 <img width="1437" alt="Screenshot 2023-03-22 at 5 22 53 PM" src="https://user-images.githubusercontent.com/110073567/227041639-9db6c495-ad83-4b8e-82c2-96cc55373773.png">
 
-On the right is file directory which shows the files inside the MATLAB folder. The editor is where you will be writing your code. The right side of the screen is the workspace which will contain all the variables that you create. On the top there are various tools including the save to save the code and run which runs the code.
+On the left is file directory which shows the files inside the MATLAB folder. The editor is where you will be writing your code. The right side of the screen is the workspace which will contain all the variables that you create. On the top there are various tools including the save to save the code and run which runs the code.
 
 Let's start with naming the script by using double percentage signs (%%) which will allow us to comment and create a new header. Then let's add in the owner of the file using one perventage sign (%) which is usually used as in-line comments:  
 
